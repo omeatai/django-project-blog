@@ -46,17 +46,17 @@ python manage.py runserver
 
 <img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/e4a9ed77-4729-447d-b1e0-4e6f50aff4d1">
 <img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/ce7915ca-d59b-42f0-85a5-c78cca998798">
-<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/eb939a24-3d62-4729-9fd1-888b8fc4404b">
-<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/baa5b8fc-fd91-420d-b566-a1698a296b5d">
-<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/1cee2499-b229-4068-a206-272dacdaa0ab">
-<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/9f2034a2-14ce-4588-96cd-a6358b196c14">
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/65b5323a-dd8d-4633-8d5a-1f33785bbfd0">
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/2fe98bad-c67c-4e5c-8fa9-83a1e3e9f280">
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/bc01467a-6e77-4584-bf1f-1c34d13fa4e3">
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/8008fd50-e539-4424-9ddf-2702c4954ef2">
 
 # #End</details>
 
 <details>
-<summary>2. Create Apps </summary>
+<summary>2. Create Django Apps </summary>
 
-# Create Apps 
+# Create Django Apps 
 
 
 
