@@ -137,9 +137,9 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>6. Setup Tags in Template </summary>
+<summary>6. Setup Tags and display Home page </summary>
 
-# Setup Tags in Template
+# Setup Tags and display Home page
 
 ```x
 
