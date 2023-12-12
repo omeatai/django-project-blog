@@ -54,9 +54,9 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>2. Create Apps </summary>
+<summary>2. Create Django Apps </summary>
 
-# Create Apps 
+# Create Django Apps 
 
 
 
