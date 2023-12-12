@@ -110,10 +110,37 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>3. Setup Templates </summary>
+<summary>4. Setup Templates and Register App </summary>
 
-# Setup Templates
-  
+# Setup Templates and Register App
+
+### [https://github.com/omeatai/django-project-blog/commit/b41c0c187b50e48802413dee9d036e89df7a23dc](https://github.com/omeatai/django-project-blog/commit/b41c0c187b50e48802413dee9d036e89df7a23dc)
+
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/2ef58077-d716-4ca4-a9d4-5cdb632e5da2">
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/88037d90-7e59-477f-89af-f5ae0a472339">
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/8b3a5a01-6333-4cb8-9bd8-a329104783ec">
+<img width="1289" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/e0d89ac1-9cb5-44f2-be13-17a6745b5da2">
+
+# #End</details>
+
+<details>
+<summary>5. Setup Dynamic Templates with context </summary>
+
+# Setup Dynamic Templates with context
+
+### [https://github.com/omeatai/django-project-blog/commit/5d1b19edd03cd8f8ce4bfd6a2c51c381c2f46584](https://github.com/omeatai/django-project-blog/commit/5d1b19edd03cd8f8ce4bfd6a2c51c381c2f46584)
+
+<img width="1046" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/d6f2b695-0e33-41ce-bc80-5a3161d601c1">
+<img width="1046" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/6d2d1b38-f245-44a6-b01d-951363469dc8">
+<img width="1291" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/be23c444-e8ce-421c-bd5b-87b76b5174e1">
+
+# #End</details>
+
+<details>
+<summary>6. Setup Tags in Template </summary>
+
+# Setup Tags in Template
+
 ```x
 
 ```
