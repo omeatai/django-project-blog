@@ -70,11 +70,11 @@ def monthly_challenge(request, month):
 
     try:
         challenge_text = monthly_challenges[month]
-        # response_data = f"<h1>{challenge_text}</h1>"
-
-        # response_data = render_to_string("challenges/challenge.html")
-        # return HttpResponse(response_data)
-        return render(request, "challenges/challenge.html")
+        context = {
+            "text": challenge_text,
+            "month_name": month.capitalize()
+        }
+        return render(request, "challenges/challenge.html", context)
     except KeyError:
         return HttpResponseNotFound("<h1>This month is not supported!</h1>")
     except Exception as e:
