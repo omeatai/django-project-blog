@@ -5,6 +5,7 @@
 {% endblock page_title %}
 {% comment %} Body  {% endcomment %}
 {% block content %}
+    {% include "challenges/partials/navbar.html" with active_page="index" %}
     <h1>All Challenges:</h1>
     <ul>
         {% for month in months %}
