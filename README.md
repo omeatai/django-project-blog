@@ -153,9 +153,24 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>7. Setup Template Inheritance and Partials </summary>
+<summary>7. Setup Template Inheritance with base.html </summary>
 
-# Setup Template Inheritance and Partials
+# Setup Template Inheritance with base.html 
+
+### [https://github.com/omeatai/django-project-blog/commit/be8a2db178ab8f938a9279699682a9ddd8ea1091](https://github.com/omeatai/django-project-blog/commit/be8a2db178ab8f938a9279699682a9ddd8ea1091)
+
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/c72fb1c3-ce05-4fef-a587-c3c73e5bb27d">
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/cd0a7e3f-be34-458c-ad6f-89cc842bcf5e">
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/fb666816-cb02-4c25-bd92-3e7d95d7f3b8">
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/adc4d6ce-3af2-4485-9478-d5eafa289bcc">
+<img width="1291" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/746b7d83-b9a0-4e4a-97ed-87f79d604981">
+
+# #End</details>
+
+<details>
+<summary>8. Setup Template Partials for Navbar </summary>
+
+# Setup Template Partials for Navbar
 
 ```x
 
