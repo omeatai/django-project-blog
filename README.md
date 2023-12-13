@@ -188,6 +188,19 @@ python manage.py runserver
 
 # Setup 404 Error Page
 
+### [https://github.com/omeatai/django-project-blog/commit/4fb4e3c1db00c7e587719b68afde13a9064ef8ba](https://github.com/omeatai/django-project-blog/commit/4fb4e3c1db00c7e587719b68afde13a9064ef8ba)
+
+<img width="1043" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/5516b03c-7fc3-4fe5-881d-999ff4f6789c">
+<img width="1043" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/91ab883c-183f-4d7d-8182-7c427a638db4">
+<img width="1287" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/3bb779d1-bf89-4f3f-bed0-64dde2ca9fa1">
+
+# #End</details>
+
+<details>
+<summary>10. Setup Static Files </summary>
+
+# Setup Static Files
+
 ```x
 
 ```
