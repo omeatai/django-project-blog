@@ -1,18 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Add your meta description here" />
-    <meta name="keywords" content="Add your meta keywords here" />
-    <title>{{ month_name | title }} Challenge</title>
-  </head>
-  <body>
-    <h1>This Month's Challenge - {{ month_name | title }}</h1>
-    {% if text is not None %}
-      <h2>{{ text }}</h2>
-    {% else %}
-      <h2>There is no challenge for this month yet !</h2>
-    {% endif %}
-  </body>
-</html>
+{% extends "base.html" %}
+{% comment %} Title {% endcomment %}
+{% block page_title %}
+  {{ month_name | title }} Challenge
+{% endblock page_title %}
+{% comment %} Body {% endcomment %}
+{% block content %}
+  <h1>This Month's Challenge - {{ month_name | title }}</h1>
+  {% if text is not None %}
+    <h2>{{ text }}</h2>
+  {% else %}
+    <h2>There is no challenge for this month yet!</h2>
+  {% endif %}
+{% endblock content %}
