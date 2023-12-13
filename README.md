@@ -141,6 +141,22 @@ python manage.py runserver
 
 # Setup Tags and display Home page
 
+### [https://github.com/omeatai/django-project-blog/commit/0f8ebe017cc59401bf8cd156cd3b168ef8f31fce](https://github.com/omeatai/django-project-blog/commit/0f8ebe017cc59401bf8cd156cd3b168ef8f31fce)
+
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/dee982be-f7c0-4a1c-846c-219324b2edc6">
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/d1cfc736-a119-4d13-b09d-c0089e627d7a">
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/4fb50cc9-d768-4f72-bb9e-36bc524ec867">
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/cad5cadd-bd1e-4791-9811-1e13b9764a44">
+<img width="1291" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/81d1f510-28e0-40fa-9184-f37363fc6dc5">
+<img width="1291" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/45cb393b-c6a5-49ee-ac97-b79da8742f61">
+
+# #End</details>
+
+<details>
+<summary>7. Setup Template Inheritance and Partials </summary>
+
+# Setup Template Inheritance and Partials
+
 ```x
 
 ```
