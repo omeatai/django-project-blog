@@ -172,6 +172,22 @@ python manage.py runserver
 
 # Setup Template Partials for Navbar
 
+### [https://github.com/omeatai/django-project-blog/commit/a4a767de04f8c28d3fe8d4b00322c01baa816428](https://github.com/omeatai/django-project-blog/commit/a4a767de04f8c28d3fe8d4b00322c01baa816428)
+
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/38ab7f73-1b81-4477-824b-b49fc9b732a5">
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/bc43c118-aca8-4d89-b180-9694f9ef8a28">
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/b8f5def1-222e-4c6d-a90f-df8fb7283a2a">
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/cbccb16b-a598-4b77-a053-fcedaf1b12fc">
+<img width="1293" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/9f143b7c-92f3-4306-87cf-b6469dd75104">
+<img width="1293" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/0b3e752c-d913-4b08-a6a7-1f6b030a46c7">
+
+# #End</details>
+
+<details>
+<summary>9. Setup 404 Error Page </summary>
+
+# Setup 404 Error Page
+
 ```x
 
 ```
