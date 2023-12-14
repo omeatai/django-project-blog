@@ -224,17 +224,37 @@ python manage.py runserver
 
 # Create Django Main Project 2: blog_project 
 
-```x
+### [https://github.com/omeatai/django-project-blog/commit/92c3d6b5f80c1c47cc0d73d563fff0a9e71c044a](https://github.com/omeatai/django-project-blog/commit/92c3d6b5f80c1c47cc0d73d563fff0a9e71c044a)
 
-```
-
-```x
-
-```
+# Create Project
 
 ```x
-
+django-admin startproject blog_project
 ```
+
+# Create Blog App
+
+```x
+cd blog_project
+python manage.py startapp blog
+```
+
+# Run Development Server
+
+```x
+python manage.py runserver
+```
+
+<img width="1081" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/1345e015-2545-401f-a0ad-9100359cea5e">
+<img width="1080" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/bd570f5a-bd73-4c4e-ad2b-0b809c464f1a">
+<img width="1246" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/688a47ef-bef7-410c-8269-b3160909140a">
+
+# #End</details>
+
+<details>
+<summary>12. Setup Urls and Views </summary>
+
+# Setup Urls and Views
 
 ```x
 
