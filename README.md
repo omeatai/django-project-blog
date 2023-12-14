@@ -197,9 +197,28 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>10. Setup Static Files and Styling </summary>
+<summary>10. Setup Global Static Files and Styling </summary>
 
-# Setup Static Files and Styling
+# Setup Global Static Files and Styling
+
+### [https://github.com/omeatai/django-project-blog/commit/f20aaff73b410d8b49614fd4b82fe6308610eaf4](https://github.com/omeatai/django-project-blog/commit/f20aaff73b410d8b49614fd4b82fe6308610eaf4)
+
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/13a42f5a-38d9-48e2-afa5-903c122fb263">
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/4145b60e-093a-4483-8858-816e9ac93f82">
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/70dc97ff-bf43-4665-90cf-157e11830571">
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/ca17d297-6770-41dd-bdf1-1c52af0315ae">
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/8cff7a35-70ba-4e62-af81-117c055dce5a">
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/5df2e184-0253-4b21-b720-32dedcd0cbcd">
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/d5a6c87d-de88-470e-b6e5-fe27553e4a56">
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/97a2ccd8-807c-4521-96f2-8691cd439593">
+<img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/a6d337f4-20f0-4212-835e-1ee4cdf4f6f1">
+
+# #End</details>
+
+<details>
+<summary>11. Create Django Main Project 2: blog_project </summary>
+
+# Create Django Main Project 2: blog_project 
 
 ```x
 
