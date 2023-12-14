@@ -197,9 +197,9 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>10. Setup Static Files </summary>
+<summary>10. Setup Static Files and Styling </summary>
 
-# Setup Static Files
+# Setup Static Files and Styling
 
 ```x
 
