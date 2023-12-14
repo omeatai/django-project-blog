@@ -203,6 +203,7 @@ python manage.py runserver
 
 ### [https://github.com/omeatai/django-project-blog/commit/f20aaff73b410d8b49614fd4b82fe6308610eaf4](https://github.com/omeatai/django-project-blog/commit/f20aaff73b410d8b49614fd4b82fe6308610eaf4)
 
+<img width="1241" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/66eed3bb-45bc-4572-bef9-64c049c373a3">
 <img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/13a42f5a-38d9-48e2-afa5-903c122fb263">
 <img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/4145b60e-093a-4483-8858-816e9ac93f82">
 <img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/70dc97ff-bf43-4665-90cf-157e11830571">
@@ -212,6 +213,9 @@ python manage.py runserver
 <img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/d5a6c87d-de88-470e-b6e5-fe27553e4a56">
 <img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/97a2ccd8-807c-4521-96f2-8691cd439593">
 <img width="1047" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/a6d337f4-20f0-4212-835e-1ee4cdf4f6f1">
+<img width="1241" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/45033491-fbed-4540-bdf7-34b3436965d4">
+<img width="1241" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/7258c51d-fdb3-4dff-b069-7f753710f980">
+<img width="1241" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/a6580144-c647-4a40-b5b8-268f5162d7b1">
 
 # #End</details>
 
