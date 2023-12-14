@@ -1,12 +1,17 @@
 {% extends "base.html" %}
+{% comment %}  {% endcomment %}
+{% load static %}
+{% block css_files %}
+    <link rel="stylesheet" href="{% static 'challenges/main.css' %}">
+    <link rel="stylesheet" href="{% static 'challenges/navbar.css' %}">
+{% endblock css_files %}
 {% comment %} Title  {% endcomment %}
 {% block page_title %}
     Home | My Challenges
 {% endblock page_title %}
 {% comment %} Body  {% endcomment %}
 {% block content %}
-    {% include "challenges/partials/navbar.html" with active_page="index" %}
-    <h1>All Challenges:</h1>
+    {% include "challenges/partials/navbar.html" with active_page="Home" %}
     <ul>
         {% for month in months %}
             <li>
