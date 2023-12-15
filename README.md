@@ -288,6 +288,24 @@ python manage.py runserver
 
 # Setup Static Files and Styling
 
+### [https://github.com/omeatai/django-project-blog/commit/8b0594ebbd934b8d7543843cd8bc8cd51990cf93](https://github.com/omeatai/django-project-blog/commit/8b0594ebbd934b8d7543843cd8bc8cd51990cf93)
+
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/188fe248-3e8e-48d3-b1db-9915b4790e02">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/20d1efe7-5027-4e20-a5d0-2b7a80a626c7">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/cf7a881e-9510-4008-a23f-48db0f468573">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/4f46b60d-8bfd-4454-bd12-88889f672d4e">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/d4784902-cc9e-4a37-9318-ef3f95a3472a">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/2e326245-8534-4752-bdf8-03e27fe3aef7">
+<img width="1268" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/a6d05c4f-4dba-4372-9b4a-ce0b29afcb88">
+<img width="1268" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/156fe6d6-4045-4e3a-aba1-18a5941b73d4">
+
+# #End</details>
+
+<details>
+<summary>15. Setup adding Images </summary>
+
+# Setup adding Images
+
 ```x
 
 ```
