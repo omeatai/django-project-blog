@@ -8,8 +8,8 @@ def home(request):
     This is the home view function.
     It returns an HTTP response.
     """
-    return HttpResponse("<h1>Hello, Django!</h1>")
-    # return render(request, 'home.html', {})
+    # return HttpResponse("<h1>Hello, Django!</h1>")
+    return render(request, 'blog/index.html', {})
 
 def posts(request):
     """
