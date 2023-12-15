@@ -256,6 +256,23 @@ python manage.py runserver
 
 # Setup Urls and Views
 
+### [https://github.com/omeatai/django-project-blog/commit/58c0da98e47dd417f9e7918351cd3bc137b5b10d](https://github.com/omeatai/django-project-blog/commit/58c0da98e47dd417f9e7918351cd3bc137b5b10d)
+
+<img width="1082" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/d5a93413-ffdd-491b-babe-b8e701742b57">
+<img width="1082" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/14ef6a14-d617-4776-920d-5c389d94333e">
+<img width="1082" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/83fa289c-724a-4cdf-80c5-60b6a6248d3a">
+<img width="1082" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/7594a5e9-1423-42f6-9cfa-bd1af0f2b3f0">
+<img width="1241" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/38493408-ea8e-438f-b128-0c2f16674b86">
+<img width="1241" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/ccaedf96-c931-499e-a37a-a3d86056d0e6">
+<img width="1241" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/87b1721a-f39a-4975-bb20-418c62c13c0f">
+
+# #End</details>
+
+<details>
+<summary>13. Setup Templates </summary>
+
+# Setup Templates
+
 ```x
 
 ```
