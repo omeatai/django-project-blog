@@ -302,9 +302,24 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>15. Setup adding Images </summary>
+<summary>15. Setup adding Images to display Latest Post </summary>
 
-# Setup adding Images
+# Setup adding Images to display Latest Post
+
+### [https://github.com/omeatai/django-project-blog/commit/9279a5e1d33f87f94a50feb8eb02437173c77247](https://github.com/omeatai/django-project-blog/commit/9279a5e1d33f87f94a50feb8eb02437173c77247)
+
+<img width="1088" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/5eef6dd6-bb59-448e-b708-02361e245cba">
+<img width="1088" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/52e746c0-dab7-4a49-a382-ef177c91eef4">
+<img width="1088" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/89328eca-8b2f-4228-ad5e-76729fdc0e6d">
+<img width="1259" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/38d40f64-e63d-44a1-ad9f-f256a4214e2b">
+<img width="1259" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/74afd62b-16c0-43c8-9846-24954d2356a9">
+
+# #End</details>
+
+<details>
+<summary>16. Setup All Post Page </summary>
+
+# Setup All Post Page
 
 ```x
 
