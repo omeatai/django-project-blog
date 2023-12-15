@@ -273,6 +273,21 @@ python manage.py runserver
 
 # Setup Templates
 
+### [https://github.com/omeatai/django-project-blog/commit/4c36ea64d9e5daf3c990497a30aaf47fe679c294](https://github.com/omeatai/django-project-blog/commit/4c36ea64d9e5daf3c990497a30aaf47fe679c294)
+
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/68b4b46e-ca82-4303-ba22-b50fd04c972a">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/1ecd4870-31e5-4bb1-bb4f-2ed53160ddad">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/8b8f2bf1-ff7e-4b18-a31c-4c840467f990">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/49a9dc0a-0f7b-45ba-ae49-7ccde182c2cb">
+<img width="1265" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/9f8826ee-5a1d-4c1e-b901-6cf374752e00">
+
+# #End</details>
+
+<details>
+<summary>14. Setup Static Files and Styling </summary>
+
+# Setup Static Files and Styling
+
 ```x
 
 ```
