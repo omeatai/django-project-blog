@@ -12,7 +12,7 @@
 {% block content %}
     <header id="main-navigation">
         <h1>
-            <a href="">Blog</a>
+            <a href="">My Blog</a>
         </h1>
         <nav>
             <a href="">All Posts</a>
@@ -20,18 +20,18 @@
     </header>
     <section id="welcome">
         <header>
-            <img src="" alt="Blog" />
+            <img src="{% static 'blog/images/picofme.png' %}" alt="pic of me" />
             <h2>Welcome to my Blog!</h2>
         </header>
-        <p>Hi, I love to blog about tech and the world!</p>
+        <h3>~Hi, I love to blog about tech and the world!~</h3>
     </section>
     <section id="latest-posts">
         <h2>My Latest Posts</h2>
         <ul>
             <li>
                 <article class="post">
-                    <a href="">
-                        <img src="" alt="Mountain Hiking" />
+                    <a href="" class="post_image">
+                        <img class="image" src="{% static 'blog/images/mountains.jpg' %}" alt="Mountain Hiking" />
                         <div class="post_content">
                             <h3>Mountain Hiking</h3>
                             <p>
