@@ -16,7 +16,8 @@ def posts(request):
     This is the posts view function.
     It returns an HTTP response.
     """
-    return HttpResponse("<h1>Hello, Posts Page!</h1>")
+    # return HttpResponse("<h1>Hello, Posts Page!</h1>")
+    return render(request, "blog/all-posts.html")
 
 def posts_detail(request, slug):
     """
