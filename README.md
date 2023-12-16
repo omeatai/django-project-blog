@@ -321,6 +321,25 @@ python manage.py runserver
 
 # Setup All Post Page
 
+### [https://github.com/omeatai/django-project-blog/commit/4e025f141fdca3998d969e414c996dea8627b074](https://github.com/omeatai/django-project-blog/commit/4e025f141fdca3998d969e414c996dea8627b074)
+
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/f1123180-74ac-487d-863b-a881639d4014">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/c264e9f5-8e46-449a-b4c6-9873537213a2">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/aeadcc62-ee31-4ac2-952a-34e04702f43a">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/eb0684ec-19a0-49f4-8a35-00709ff80b21">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/d347ad21-9425-4f2c-91d9-7f03527c22e1">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/0ff3fbdd-bcf1-4d3a-bd63-0467f9eb39f9">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/33c6ae9b-8de3-4237-856a-088745153ef6">
+<img width="1271" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/1295cba7-6a29-4153-a09a-8fa51b3ee6cf">
+<img width="1271" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/7c5148a1-3ad7-4dc7-9fa4-e3e02f38b19b">
+
+# #End</details>
+
+<details>
+<summary>17. Setup Single Post Page </summary>
+
+# Setup Single Post Page
+
 ```x
 
 ```
