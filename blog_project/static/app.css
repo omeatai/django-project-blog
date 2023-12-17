@@ -11,6 +11,9 @@ html {
 body {
   margin: 0;
   background-color: #ffe1bf;
+  direction: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1,
@@ -46,4 +49,18 @@ h3 {
 #main-navigation h1 a:hover,
 #main-navigation h1 a:active {
   color: white;
+}
+
+@media screen and (max-width: 800px) {
+  #main-navigation {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 }
