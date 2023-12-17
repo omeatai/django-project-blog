@@ -340,6 +340,33 @@ python manage.py runserver
 
 # Setup Single Post Page
 
+### [https://github.com/omeatai/django-project-blog/commit/c2b1eb47f039654c0d206497f1562ce98ad31f2f](https://github.com/omeatai/django-project-blog/commit/c2b1eb47f039654c0d206497f1562ce98ad31f2f)
+
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/229f1b17-d2f2-4135-847d-310d9aa5a1b3">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/219d0067-da8a-4351-980c-29ab6b07d0e1">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/d8ee939b-ea01-48c4-a40c-894965ef97c1">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/fadfc921-3107-422a-93f0-3a801f3ec86e">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/98eccc40-bb42-4cd6-b626-79772585db6c">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/f5541591-88f4-415a-831e-8da775527840">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/f133f567-c09e-4fd8-8e18-fc9f105248ee">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/ad1dbbce-f1b3-4937-8f5a-f9474b820a6a">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/c20589f2-2df7-48e2-8d96-1e424a72b6a0">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/e2cbde02-8659-4267-970b-422a34e33ded">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/b03c5f8f-e87c-46d4-85e6-6a774db8a5b1">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/7d08fde7-a30b-46bc-9089-f41ed183c3c3">
+<img width="1089" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/d2f2ea17-e455-41f8-8041-5b45e2932e92">
+<img width="1323" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/6de7006e-b56c-4679-ac87-67da1651ccd4">
+<img width="1323" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/276f0de3-3691-4626-b286-574214fbc785">
+<img width="1323" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/ebb5cdb3-18ac-48ed-ac0f-f0e3eae1ecb2">
+<img width="1323" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/75781ac1-03f8-4bf4-a821-781174237312">
+
+# #End</details>
+
+<details>
+<summary>18. Setup Django Model </summary>
+
+# Setup Django Model
+
 ```x
 
 ```
