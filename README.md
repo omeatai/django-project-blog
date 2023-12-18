@@ -302,7 +302,7 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>15. Blog Main Project: Setup adding Images to display Latest Post </summary>
+<summary>15. Blog Main Project: Setup Adding Images to display Latest Post </summary>
 
 # Setup adding Images to display Latest Post
 
@@ -363,25 +363,60 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>18. Book Store Demo Project: Setup Django Project </summary>
+<summary>18. Book Store Demo Project: Create Django Project </summary>
 
-# Setup Django Project
+# Create Django Project
 
-```x
+### [https://github.com/omeatai/django-project-blog/commit/85a18879d57bf35cf14495bfe2295a8dad48e612](https://github.com/omeatai/django-project-blog/commit/85a18879d57bf35cf14495bfe2295a8dad48e612)
 
-```
-
-```x
-
-```
+# Create Project
 
 ```x
-
+django-admin startproject book_store_project
 ```
+
+# Create App
 
 ```x
-
+cd book_store_project
+python manage.py startapp books
 ```
+
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/ff1653c0-0c88-44cd-88ce-203e5d017764">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/25cc46b7-d0d6-4d26-a77a-a59e49090788">
+
+# #End</details>
+
+<details>
+<summary>19. Book Store Demo Project: Create Django Model with Fields </summary>
+
+# Create Django Model with Fields 
+
+### [https://github.com/omeatai/django-project-blog/commit/3956839d7a748b8011eab08e8325a363cafc7f95](https://github.com/omeatai/django-project-blog/commit/3956839d7a748b8011eab08e8325a363cafc7f95)
+
+# Make Migrations
+
+```x
+python manage.py makemigrations
+```
+
+# Migrate Migrations
+
+```x
+python manage.py migrate
+```
+
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/a0974c01-c91a-422e-bd0c-dc4479b5bb35">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/a7818298-2465-40f5-aab2-06148a5e7962">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/fadaad73-6288-46f8-944d-e3d6571ebb72">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/a3e7c8bd-390e-40e5-9527-1ed12358ec83">
+
+# #End</details>
+
+<details>
+<summary>20. Book Store Demo Project: Model Insert Data </summary>
+
+# Model Insert Data
 
 ```x
 
