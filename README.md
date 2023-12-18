@@ -596,9 +596,45 @@ False
 # #End</details>
 
 <details>
-<summary>26. Book Store Demo Project: Model Querying and Filtering Data </summary>
+<summary>26. Book Store Demo Project: Model Querying and Filtering Data with get() and filter() </summary>
 
-# Model Querying and Filtering Data
+# Model Querying and Filtering Data with get() and filter() 
+
+### [https://github.com/omeatai/django-project-blog/commit/83c7d587dd5dbaa2d758ab34fceecf6380bdc1f4](https://github.com/omeatai/django-project-blog/commit/83c7d587dd5dbaa2d758ab34fceecf6380bdc1f4)
+
+```x
+>>> from books.models import Book
+>>> Book.objects.all()
+<QuerySet [<Book: Whispers of the Forgotten Realm (5)>, <Book: The Enigma Chronicles (3)>, <Book: Spectral Serenade (3)>, <Book: In the Shadows (5)>, <Book: Color notebook (1)>]>
+>>> Book.objects.get(id=1)
+<Book: Whispers of the Forgotten Realm (5)>
+>>> Book.objects.get(id=6, rating=1)
+<Book: Color notebook (1)>
+>>> Book.objects.filter(rating=5)
+<QuerySet [<Book: Whispers of the Forgotten Realm (5)>, <Book: In the Shadows (5)>]>
+>>> Book.objects.filter(id=3, rating=3)
+<QuerySet [<Book: The Enigma Chronicles (3)>]>
+>>> Book.objects.filter(rating__lte=3)
+<QuerySet [<Book: The Enigma Chronicles (3)>, <Book: Spectral Serenade (3)>, <Book: Color notebook (1)>]>
+>>> Book.objects.filter(author__startswith="James")
+<QuerySet [<Book: Whispers of the Forgotten Realm (5)>]>
+>>> Book.objects.filter(title__icontains="Enigma")
+<QuerySet [<Book: The Enigma Chronicles (3)>]>
+>>> Book.objects.filter(title__exact="In the Shadows")
+<QuerySet [<Book: In the Shadows (5)>]>
+>>> 
+```
+
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/015bcab1-0b71-40a4-bb18-83c192d5b1c0">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/b6317619-4f48-4822-bb3b-ad864d44335e">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/dfc4d9ef-b2f6-4718-b5a9-3adc55f707a0">
+
+# #End</details>
+
+<details>
+<summary>27. Book Store Demo Project: Model Querying and Filtering Data with OR Logic </summary>
+
+# Model Querying and Filtering Data with OR Logic
 
 ```x
 
@@ -652,7 +688,77 @@ False
 
 ```
 
+```x
 
+```
+
+```x
+
+```
+
+```x
+
+```
+
+```x
+
+```
+
+```x
+
+```
+
+```x
+
+```
+
+```x
+
+```
+
+```x
+
+```
+
+```x
+
+```
+
+```x
+
+```
+
+```x
+
+```
+
+```x
+
+```
+
+```x
+
+```
+
+```x
+
+```
+
+```x
+
+```
+
+```x
+
+```
+
+```x
+
+```
+
+```x
+
+```
 
 # #End</details>
 
