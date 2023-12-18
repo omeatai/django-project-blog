@@ -573,9 +573,32 @@ False
 
 # Model Insert Data with Create method
 
-```x
+### [https://github.com/omeatai/django-project-blog/commit/9afcb5ff25c874589235f824d22d0f399c4d9f9d](https://github.com/omeatai/django-project-blog/commit/9afcb5ff25c874589235f824d22d0f399c4d9f9d)
 
+```x
+>>> Book.objects.all()
+<QuerySet [<Book: Whispers of the Forgotten Realm (5)>, <Book: The Enigma Chronicles (3)>]>
+>>> Book.objects.create(title="Spectral Serenade", rating=3, author="Tom Hendrix", is_bestselling=False)
+<Book: Spectral Serenade (3)>
+>>> Book.objects.create(title="In the Shadows", rating=5, author="Sydney Blanc", is_bestselling=True)
+<Book: In the Shadows (5)>
+>>> Book.objects.create(title="Color notebook", rating=1, author="The Hopkins", is_bestselling=False)
+<Book: Color notebook (1)>
+>>> Book.objects.all()
+<QuerySet [<Book: Whispers of the Forgotten Realm (5)>, <Book: The Enigma Chronicles (3)>, <Book: Spectral Serenade (3)>, <Book: In the Shadows (5)>, <Book: Color notebook (1)>]>
+>>> 
 ```
+
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/a4230f4c-8eed-4541-92d0-d6388a464240">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/794388f9-922d-4c53-bd44-891a21ad83a0">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/cf5c7cad-8d1f-42cd-85f1-b57ebb14f630">
+
+# #End</details>
+
+<details>
+<summary>26. Book Store Demo Project: Model Querying and Filtering Data </summary>
+
+# Model Querying and Filtering Data
 
 ```x
 
