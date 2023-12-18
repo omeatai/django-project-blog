@@ -703,9 +703,28 @@ False
 
 # Setup Templates
 
-```x
+### [https://github.com/omeatai/django-project-blog/commit/6f0244ef3d8e1b38553833cc5bddd04e2ff794b2](https://github.com/omeatai/django-project-blog/commit/6f0244ef3d8e1b38553833cc5bddd04e2ff794b2)
 
+# Run Development Server
+
+```x
+python manage.py runserver
 ```
+
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/af66da70-83e8-4c13-a48b-7a0cf302e81c">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/22f326cc-1329-448c-9a14-111b5cb9065d">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/0b904615-9b36-43f1-84b2-fbd70fce5aa0">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/bb30f110-e145-4acb-aeea-743c67fb9291">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/7b72d6da-a420-4895-a70a-3d83d2e83daf">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/c2e91d64-5c07-460a-afe0-f3c85cccdd48">
+<img width="1325" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/b24e9054-93af-4be5-bb65-eb2c87a3cd1a">
+
+# #End</details>
+
+<details>
+<summary>30. Book Store Demo Project: Rendering Queried Data in Template </summary>
+
+# Rendering Queried Data in Template
 
 ```x
 
