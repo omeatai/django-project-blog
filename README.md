@@ -472,6 +472,52 @@ python manage.py shell
 
 # Model Include Validators
 
+### [https://github.com/omeatai/django-project-blog/commit/738b6d4797f9d39e4a9d3fc2789b59115f1fd064](https://github.com/omeatai/django-project-blog/commit/738b6d4797f9d39e4a9d3fc2789b59115f1fd064)
+
+###[https://docs.djangoproject.com/en/5.0/ref/validators/](https://docs.djangoproject.com/en/5.0/ref/validators/)
+
+# Update Database
+
+```x
+python manage.py makemigrations
+python manage.py migrate
+```
+
+# Run Django Shell
+
+```x
+python manage.py shell
+```
+
+```x
+>>> from books.models import Book
+>>> Book.objects.all()
+<QuerySet [<Book: Whispers of the Forgotten Realm (5)>, <Book: Ephemeral Echoes (4)>, <Book: The Enigma Chronicles (3)>]>
+>>> Book.objects.all()[1].title
+'Ephemeral Echoes'
+>>> Book.objects.all()[1].is_bestselling
+False
+>>> Book.objects.all()[1].rating
+4
+>>> book4 = Book(title='The Enigma Chronicles', rating="zdfdf")
+>>> book4.save()
+Traceback (most recent call last):
+```
+
+<img width="1325" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/3393a537-a441-4a51-8f99-9c69a84b81bd">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/a2437e03-c8b7-47d9-be85-27494441af73">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/73c0520d-96e0-4a35-b51b-cc400b0f7cdf">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/6763c520-02ac-4b2e-ac21-f036b49af2c9">
+
+# #End</details>
+
+<details>
+<summary>23. Book Store Demo Project: Model Update Data </summary>
+
+# Model Update Data
+
+
+
 ```x
 
 ```
