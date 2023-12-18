@@ -13,9 +13,9 @@ This is a modern django Blog Application built with Django by Ifeanyi Omeata.
 ## Project Steps (Tutorial)
 
 <details>
-<summary>1. Create Django Demo Project: mypage </summary>
+<summary>1. Mypage Demo Project: Create Django Project </summary>
 
-#  Create Django Demo Project: mypage
+#  Mypage Demo Project: Create Django Project
 
 ### [https://github.com/omeatai/django-project-blog/commit/4305cb75b959e5a72ece9a6010d70a6d4adbb5c7](https://github.com/omeatai/django-project-blog/commit/4305cb75b959e5a72ece9a6010d70a6d4adbb5c7)
 ### [https://github.com/omeatai/django-project-blog/commit/7506153ce7946f2c39f38b71ae463c05a08cb824](https://github.com/omeatai/django-project-blog/commit/7506153ce7946f2c39f38b71ae463c05a08cb824)
@@ -62,9 +62,9 @@ python manage.py startapp challenges
 # #End</details>
 
 <details>
-<summary>2. Create Django Main Project 1: challenges_project </summary>
+<summary>2. Challenges Demo Project: Create Django Project </summary>
 
-# Create Django Main Project 1: challenges_project
+# Challenges Demo Project: Create Django Project
 
 ### [https://github.com/omeatai/django-project-blog/commit/7523b95502150f9015a6418041938ec08d90b70c](https://github.com/omeatai/django-project-blog/commit/7523b95502150f9015a6418041938ec08d90b70c)
 
@@ -94,7 +94,7 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>3. Setup URLs and Views </summary>
+<summary>3. Challenges Demo Project: Setup URLs and Views </summary>
 
 # Setup URLs and Views
 
@@ -110,7 +110,7 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>4. Setup Templates and Register App </summary>
+<summary>4. Challenges Demo Project: Setup Templates and Register App </summary>
 
 # Setup Templates and Register App
 
@@ -124,7 +124,7 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>5. Setup Dynamic Templates with context </summary>
+<summary>5. Challenges Demo Project: Setup Dynamic Templates with context </summary>
 
 # Setup Dynamic Templates with context
 
@@ -137,7 +137,7 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>6. Setup Tags and display Home page </summary>
+<summary>6. Challenges Demo Project: Setup Tags and display Home page </summary>
 
 # Setup Tags and display Home page
 
@@ -153,7 +153,7 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>7. Setup Template Inheritance with base.html </summary>
+<summary>7. Challenges Demo Project: Setup Template Inheritance with base.html </summary>
 
 # Setup Template Inheritance with base.html 
 
@@ -168,7 +168,7 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>8. Setup Template Partials for Navbar </summary>
+<summary>8. Challenges Demo Project: Setup Template Partials for Navbar </summary>
 
 # Setup Template Partials for Navbar
 
@@ -184,7 +184,7 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>9. Setup 404 Error Page </summary>
+<summary>9. Challenges Demo Project: Setup 404 Error Page </summary>
 
 # Setup 404 Error Page
 
@@ -197,7 +197,7 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>10. Setup Global Static Files and Styling </summary>
+<summary>10. Challenges Demo Project: Setup Global Static Files and Styling </summary>
 
 # Setup Global Static Files and Styling
 
@@ -220,9 +220,9 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>11. Create Django Main Project 2: blog_project </summary>
+<summary>11. Blog Main Project: Create Django Project </summary>
 
-# Create Django Main Project 2: blog_project 
+# Blog Main Project: Create Django Project
 
 ### [https://github.com/omeatai/django-project-blog/commit/92c3d6b5f80c1c47cc0d73d563fff0a9e71c044a](https://github.com/omeatai/django-project-blog/commit/92c3d6b5f80c1c47cc0d73d563fff0a9e71c044a)
 
@@ -252,7 +252,7 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>12. Setup Urls and Views </summary>
+<summary>12. Blog Main Project: Setup Urls and Views </summary>
 
 # Setup Urls and Views
 
@@ -269,7 +269,7 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>13. Setup Templates </summary>
+<summary>13. Blog Main Project: Setup Templates </summary>
 
 # Setup Templates
 
@@ -284,7 +284,7 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>14. Setup Static Files and Styling </summary>
+<summary>14. Blog Main Project: Setup Static Files and Styling </summary>
 
 # Setup Static Files and Styling
 
@@ -302,7 +302,7 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>15. Setup adding Images to display Latest Post </summary>
+<summary>15. Blog Main Project: Setup adding Images to display Latest Post </summary>
 
 # Setup adding Images to display Latest Post
 
@@ -317,7 +317,7 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>16. Setup All Post Page </summary>
+<summary>16. Blog Main Project: Setup All Post Page </summary>
 
 # Setup All Post Page
 
@@ -336,7 +336,7 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>17. Setup Single Post Page </summary>
+<summary>17. Blog Main Project: Setup Single Post Page </summary>
 
 # Setup Single Post Page
 
@@ -363,9 +363,9 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>18. Setup Django Model </summary>
+<summary>18. Book Store Demo Project: Setup Django Project </summary>
 
-# Setup Django Model
+# Setup Django Project
 
 ```x
 
