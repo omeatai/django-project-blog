@@ -447,6 +447,31 @@ python manage.py shell
 
 # Model Get all Data
 
+### [https://github.com/omeatai/django-project-blog/commit/6af04f34b73f2f9af0e6c295b3ece65d9bdbd9c8](https://github.com/omeatai/django-project-blog/commit/6af04f34b73f2f9af0e6c295b3ece65d9bdbd9c8)
+
+# Run Django Shell
+
+```x
+python manage.py shell
+```
+
+```x
+>>> from books.models import Book
+>>> Book.objects.all()
+<QuerySet [<Book: Whispers of the Forgotten Realm (5)>, <Book: Ephemeral Echoes (4)>, <Book: The Enigma Chronicles (3)>]>
+```
+
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/47ee627c-0e65-48d1-bfb9-d1fffbc106fc">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/57545179-3f38-4cd9-9905-eaf62298ddc1">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/94491cb2-b73a-4ce7-a454-fe297660ed19">
+
+# #End</details>
+
+<details>
+<summary>22. Book Store Demo Project: Model Include Validators </summary>
+
+# Model Include Validators
+
 ```x
 
 ```
