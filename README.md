@@ -516,11 +516,36 @@ Traceback (most recent call last):
 
 # Model Update Data
 
-
+### [https://github.com/omeatai/django-project-blog/commit/3e2cba3055b2839ef34341c3919d36a4196e0ecb](https://github.com/omeatai/django-project-blog/commit/3e2cba3055b2839ef34341c3919d36a4196e0ecb)
 
 ```x
-
+>>> from books.models import Book
+>>> book1 = Book.objects.all()[0]
+>>> book1.title
+'Whispers of the Forgotten Realm'
+>>> book1.author
+>>> book1.is_bestselling
+False
+>>> book1.author = "James Harrison"
+>>> book1.is_bestselling = True
+>>> book1.save()
+>>> Book.objects.all()[0]
+<Book: Whispers of the Forgotten Realm (5)>
+>>> Book.objects.all()[0].author
+'James Harrison'
+>>> 
 ```
+
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/6748a4e4-4281-438f-9648-40a266d0a667">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/6af96c93-ad5c-4a81-8ddb-abdebe28ba66">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/ce4aea17-4e68-42d7-90be-44a88c090853">
+
+# #End</details>
+
+<details>
+<summary>24. Book Store Demo Project: Model Delete Data </summary>
+
+# Model Delete Data 
 
 ```x
 
