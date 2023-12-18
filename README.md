@@ -547,9 +547,31 @@ False
 
 # Model Delete Data 
 
-```x
+### [https://github.com/omeatai/django-project-blog/commit/33af2257cd310ee3c1f74c2644edbf456c942ab0](https://github.com/omeatai/django-project-blog/commit/33af2257cd310ee3c1f74c2644edbf456c942ab0)
 
+```x
+>>> Book.objects.all()
+<QuerySet [<Book: Whispers of the Forgotten Realm (5)>, <Book: Ephemeral Echoes (4)>, <Book: The Enigma Chronicles (3)>]>
+>>> Book.objects.all()[1]
+<Book: Ephemeral Echoes (4)>
+>>> book2 = Book.objects.all()[1]
+>>> book2.delete()
+(1, {'books.Book': 1})
+>>> Book.objects.all()
+<QuerySet [<Book: Whispers of the Forgotten Realm (5)>, <Book: The Enigma Chronicles (3)>]>
+>>> 
 ```
+
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/753a4da6-dce1-49ab-b332-86da9d91e35d">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/66378f94-6824-43b8-9128-11059a813d71">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/a0c8c3b3-194b-41d3-8e61-548d6d72d3fb">
+
+# #End</details>
+
+<details>
+<summary>25. Book Store Demo Project: Model Insert Data with Create method </summary>
+
+# Model Insert Data with Create method
 
 ```x
 
