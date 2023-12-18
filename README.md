@@ -632,25 +632,76 @@ False
 # #End</details>
 
 <details>
-<summary>27. Book Store Demo Project: Model Querying and Filtering Data with OR Logic </summary>
+<summary>27. Book Store Demo Project: Model Querying and Filtering Data with OR, AND Logic </summary>
 
-# Model Querying and Filtering Data with OR Logic
+# Model Querying and Filtering Data with OR, AND Logic
 
-```x
-
-```
+### [https://github.com/omeatai/django-project-blog/commit/68e817c383de396e03058c3c5d1804bdc6f34f3b](https://github.com/omeatai/django-project-blog/commit/68e817c383de396e03058c3c5d1804bdc6f34f3b)
 
 ```x
-
+>>> from books.models import Book
+>>> Book.objects.all()
+<QuerySet [<Book: Whispers of the Forgotten Realm (5)>, <Book: The Enigma Chronicles (3)>, <Book: Spectral Serenade (3)>, <Book: In the Shadows (5)>, <Book: Color notebook (1)>]>
+>>> from django.db.models import Q
+>>> Book.objects.filter(Q(is_bestselling=True) | Q(rating=1))
+<QuerySet [<Book: Whispers of the Forgotten Realm (5)>, <Book: In the Shadows (5)>, <Book: Color notebook (1)>]>
+>>> Book.objects.filter(Q(is_bestselling=True) | Q(rating=1), Q(title__iexact="in the shadows"))
+<QuerySet [<Book: In the Shadows (5)>]>
+>>> 
 ```
+
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/f0838c0c-766d-434a-9b0e-03e47e0a08f8">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/00465fc0-d7f0-4fe4-931c-cf4e67ee01ce">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/bf1f5bdc-61c9-4ceb-aba4-61ed7f29db31">
+
+# #End</details>
+
+<details>
+<summary>28. Book Store Demo Project: Model Deleting, Creating and Updating Multiple Model Instances at once </summary>
+
+# Model Deleting Multiple Model Instances at once
+
+### [https://docs.djangoproject.com/en/5.0/topics/db/queries/#deleting-objects](https://docs.djangoproject.com/en/5.0/topics/db/queries/#deleting-objects)
 
 ```x
-
+>>> Entry.objects.filter(pub_date__year=2005).delete()
+(5, {'webapp.Entry': 5})
 ```
+
+# Model Creating Multiple Model Instances at once
+
+### [https://docs.djangoproject.com/en/5.0/ref/models/querysets/#bulk-create](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#bulk-create)
 
 ```x
-
+>>> objs = Entry.objects.bulk_create(
+...     [
+...         Entry(headline="This is a test"),
+...         Entry(headline="This is only a test"),
+...     ]
+... )
 ```
+
+# Model Updating Multiple Model Instances at once
+
+### [https://docs.djangoproject.com/en/5.0/ref/models/querysets/#bulk-update](https://docs.djangoproject.com/en/5.0/ref/models/querysets/#bulk-update)
+
+```x
+>>> objs = [
+...     Entry.objects.create(headline="Entry 1"),
+...     Entry.objects.create(headline="Entry 2"),
+... ]
+>>> objs[0].headline = "This is entry 1"
+>>> objs[1].headline = "This is entry 2"
+>>> Entry.objects.bulk_update(objs, ["headline"])
+2
+```
+
+# #End</details>
+
+<details>
+<summary>29. Book Store Demo Project: Setup Templates </summary>
+
+# Setup Templates
 
 ```x
 
