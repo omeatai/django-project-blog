@@ -302,7 +302,7 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>15. Blog Main Project: Setup adding Images to display Latest Post </summary>
+<summary>15. Blog Main Project: Setup Adding Images to display Latest Post </summary>
 
 # Setup adding Images to display Latest Post
 
