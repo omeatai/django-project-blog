@@ -418,13 +418,34 @@ python manage.py migrate
 
 # Model Insert Data
 
-```x
+### [https://github.com/omeatai/django-project-blog/commit/198a0825c15820611169cf14e39d6ff7a2fec343](https://github.com/omeatai/django-project-blog/commit/198a0825c15820611169cf14e39d6ff7a2fec343)
 
+# Run Django Shell
+
+```x
+python manage.py shell
 ```
 
 ```x
-
+>>> from books.models import Book
+>>> book1 = Book(title='Whispers of the Forgotten Realm', rating=5)
+>>> book1.save()
+>>> book2 = Book(title='Ephemeral Echoes', rating=4)
+>>> book2.save()
+>>> book3 = Book(title='The Enigma Chronicles', rating=3)
+>>> book3.save()
 ```
+
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/6b6dd510-d948-4e65-b324-38c530612a7a">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/896f1e27-b1c9-4627-86e9-a3894a2ffef9">
+<img width="1090" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/2401ab16-e215-4c18-8b5e-82f05a15ae9a">
+
+# #End</details>
+
+<details>
+<summary>21. Book Store Demo Project: Model Get all Data </summary>
+
+# Model Get all Data
 
 ```x
 
