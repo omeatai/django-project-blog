@@ -11,4 +11,14 @@ All Books
     <li><a href="{{ book.get_absolute_url }}">{{ book.title }}</a> (Rating: {{ book.rating }})</li>
     {% endfor %}
 </ul>
+<hr>
+
+<p>Total Number Of Books: {{ total_number_of_books }}</p>
+<p>Aggregated Rating: {{ aggregated_rating }}</p>
+<p>Average Rating: {{ aggregated_rating.average_rating }}</p>
+<p>Min Rating: {{ aggregated_rating.min_rating }}</p>
+<p>Max Rating: {{ aggregated_rating.max_rating }}</p>
+<p>Count of Rating: {{ aggregated_rating.count_rating }}</p>
+<p>Sum of Rating: {{ aggregated_rating.sum_rating }}</p>
+
 {% endblock content %}
