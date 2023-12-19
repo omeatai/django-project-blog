@@ -770,21 +770,75 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>33. Book Store Demo Project: Setup  </summary>
+<summary>33. Book Store Demo Project: Create Slug and Overwrite Save Method </summary>
 
-# Setup 
+# Create Slug and Overwrite Save Method
+
+# Run Migrations
 
 ```x
+python manage.py makemigrations
+python manage.py migrate
+```
 
+# Run Django Shell
+
+```x
+python manage.py shell
 ```
 
 ```x
+>>> from books.models import Book
+>>> books = Book.objects.all()
+>>> books
+<QuerySet [<Book: Whispers of the Forgotten Realm (5)>, <Book: The Enigma Chronicles (3)>, <Book: Spectral Serenade (3)>, <Book: In the Shadows (5)>, <Book: Color notebook (1)>]>
+>>> Book.objects.create(title="Humpty Dumpty", rating=4, author="alex Humfrey", is_bestselling=True)
+<Book: Humpty Dumpty (4)>
 
+>>> book = Book.objects.get(id=7)
+>>> book
+<Book: Humpty Dumpty (4)>
+>>> book.slug
+'humpty-dumpty'
+>>> book = Book.objects.get(id=1)
+>>> book
+<Book: Whispers of the Forgotten Realm (5)>
+>>> book.slug
+''
+>>> book.save()
+>>> book.slug
+'whispers-of-the-forgotten-realm'
+
+>>> books = Book.objects.all()
+>>> books
+<QuerySet [<Book: Whispers of the Forgotten Realm (5)>, <Book: The Enigma Chronicles (3)>, <Book: Spectral Serenade (3)>, <Book: In the Shadows (5)>, <Book: Color notebook (1)>, <Book: Humpty Dumpty (4)>]>
+>>> books = list(books)
+>>> books
+[<Book: Whispers of the Forgotten Realm (5)>, <Book: The Enigma Chronicles (3)>, <Book: Spectral Serenade (3)>, <Book: In the Shadows (5)>, <Book: Color notebook (1)>, <Book: Humpty Dumpty (4)>]
+>>> for book in books:
+      book.save()
+      print(book.slug)
+
+whispers-of-the-forgotten-realm
+the-enigma-chronicles
+spectral-serenade
+in-the-shadows
+color-notebook
+humpty-dumpty
+>>> 
 ```
 
-```x
+<img width="1134" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/609768c8-c0aa-4d4f-8f36-7cc2fb80d6d7">
+<img width="1134" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/1e8e2561-168d-4f1d-8cb9-b9ea42e53b97">
+<img width="1134" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/9bbff47f-4f6f-470d-b340-cd9318574aa4">
+<img width="1134" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/660866f2-dccc-4c79-89ee-63d9b7a12a0f">
 
-```
+# #End</details>
+
+<details>
+<summary>34. Book Store Demo Project: Slugify URL </summary>
+
+# Slugify URL
 
 ```x
 
