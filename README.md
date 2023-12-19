@@ -930,9 +930,42 @@ videos = Video.objects.values('id', 'name','video').annotate(Count('user_likes',
 
 # Setup Admin Panel
 
-```x
+### [https://github.com/omeatai/django-project-blog/commit/6aa33ba33b0d292b27bcd1ab226ba0d6aff6229d](https://github.com/omeatai/django-project-blog/commit/6aa33ba33b0d292b27bcd1ab226ba0d6aff6229d)
 
+# Create Super User for Admin
+
+```x
+python manage.py createsuperuser
 ```
+
+# Run Development Server
+
+```x
+python manage.py runserver
+```
+
+<img width="1138" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/348a52ec-4868-4572-8651-f2679853a14d">
+<img width="1325" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/e8bcb126-ff35-4cb9-82fb-02c33ca644d3">
+<img width="1325" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/28a7101c-e8a2-433c-a157-9c70207e2780">
+<img width="1325" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/1371ce3e-958f-4951-9fe8-4c0f02217bbf">
+<img width="1139" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/9f3ec0ac-a550-41cd-817f-ea2cc97fb187">
+<img width="1327" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/edc51701-49fd-4ed8-820d-50c86bc44739">
+<img width="1327" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/cd2ffbd4-4cb1-4660-a73a-aa9024ace70f">
+<img width="1136" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/4ca4e335-9dfd-4328-ace2-3d5ce3295e59">
+<img width="1327" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/a961692d-0309-42ab-a405-ed33ea5e83c3">
+<img width="1327" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/d0b28cc6-3c72-460a-9c86-63527efbf303">
+<img width="1136" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/ec5cd397-6bc0-4e7f-a41d-95b9e24b7f72">
+<img width="1324" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/0a7431ae-c484-4963-9c1d-d928fd640d36">
+<img width="1324" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/95512e32-81ec-4d71-9583-5b3e4a0252cf">
+<img width="1138" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/4627e6be-47ff-44e0-ae85-693c868afec4">
+<img width="1325" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/7f8d2740-1726-4ce2-abd5-a56ce34baeba">
+
+# #End</details>
+
+<details>
+<summary>37. Book Store Demo Project: Setup Key Relationships </summary>
+
+# Setup Key Relationships
 
 ```x
 
