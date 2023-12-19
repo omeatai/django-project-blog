@@ -852,17 +852,83 @@ humpty-dumpty
 # #End</details>
 
 <details>
-<summary>35. Book Store Demo Project:  </summary>
+<summary>35. Book Store Demo Project: Setup Aggregation & Ordering </summary>
 
-# Slugify URL
+# Setup Aggregation & Ordering
+
+### [https://github.com/omeatai/django-project-blog/commit/6f10de2c77dc6418449b9b526442f61467816356](https://github.com/omeatai/django-project-blog/commit/6f10de2c77dc6418449b9b526442f61467816356)
+
+# Aggregate VS Annotate 
+
+Aggregate calculates values for the entire queryset. Annotate calculates summary values for each item in the queryset.
+
+### Aggregation
 
 ```x
-
+>>> Book.objects.aggregate(average_price=Avg('price'))
+{'average_price': 34.35}
 ```
+
+Returns a dictionary containing the average price of all books in the queryset.
+Aggregate Aggregate generate result (summary) values over an entire QuerySet. Aggregate operate over the rowset to get a single value from the rowset.(For example sum of all prices in the rowset). Aggregate is applied on entire QuerySet and it generate result (summary) values over an entire QuerySet.
+
+In Model:
 
 ```x
-
+class Books(models.Model):
+    name = models.CharField(max_length=100)
+    pages = models.IntegerField()
+    price = models.DecimalField(max_digits=5, decimal_places=3)
 ```
+ 
+In Shell:
+
+```x
+>>> Books.objects.all().aggregate(Avg('price'))
+# Above code will give the Average of the price Column 
+>>> {'price__avg': 34.35}
+```
+
+### Annotation
+
+```x
+>>> q = Book.objects.annotate(num_authors=Count('authors'))
+>>> q[0].num_authors
+2
+>>> q[1].num_authors
+1
+```
+
+q is the queryset of books, but each book has been annotated with the number of authors.
+Annotate Annotate generate an independent summary for each object in a QuerySet.(We can say it iterate each object in a QuerySet and apply operation)
+
+In Model:
+
+```x
+class Video(models.Model):
+    name = models.CharField(max_length=52, verbose_name='Name')
+    video = models.FileField(upload_to=document_path, verbose_name='Upload video')
+    created_by = models.ForeignKey(User, verbose_name='Created by', related_name="create_%(class)s")
+    user_likes = models.ManyToManyField(UserProfile, null=True, blank=True, help_text='User can like once', verbose_name='Like by')
+```
+
+In View:
+
+```x
+videos = Video.objects.values('id', 'name','video').annotate(Count('user_likes',distinct=True)
+```
+
+<img width="1137" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/9cf4b2f3-c2c0-4b50-a1d9-a5cec55c4abc">
+<img width="1137" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/2d9ba9d1-0f0f-4ca3-b5fb-b9023b30fd63">
+<img width="1137" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/20c1b89b-e27c-476c-bb3c-1c905b2434e1">
+<img width="1325" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/3ef534fd-4321-4c55-81d8-0286bec5882d">
+
+# #End</details>
+
+<details>
+<summary>36. Book Store Demo Project: Setup Admin Panel </summary>
+
+# Setup Admin Panel
 
 ```x
 
