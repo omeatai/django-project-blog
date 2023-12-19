@@ -8,16 +8,16 @@ from .models import Book
 
 def index(request):
     books = Book.objects.all()  # Retrieve all books from the database
-    print(books)
+    # print(books)
     return render(request, "books/index.html", {"books": books})
 
 
-def book_details(request, id):
+def book_details(request, slug):
     # try:
     #     book = Book.objects.get(pk=id)
     # except Book.DoesNotExist:
     #     raise Http404("Book does not exist")
-    book = get_object_or_404(Book, pk=id)
+    book = get_object_or_404(Book, slug=slug)
     return render(request, "books/book_details.html", {
         "title": book.title,
         "author": book.author,
