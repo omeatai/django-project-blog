@@ -2,7 +2,7 @@ from django.db import models
 from django.core.validators import MinValueValidator, MaxValueValidator
 from django.core.exceptions import ValidationError
 from django.utils.translation import gettext_lazy as _
-
+from django.urls import reverse
 
 def validate_not_a_number(value):
     if not str(value).isdigit():
@@ -21,9 +21,11 @@ class Book(models.Model):
     author = models.CharField(blank=True, null=True, max_length=100)
     is_bestselling = models.BooleanField(default=False)
     # id = models.AutoField(primary_key=True)
-    # author = models.CharField(max_length=100)
     # price = models.DecimalField(max_digits=5, decimal_places=2)
     # cover = models.ImageField(upload_to='covers/', blank=True)
+
+    def get_absolute_url(self):
+        return reverse("book-detail", args=[self.id]) # kwargs={"pk": self.pk}
 
     def __str__(self):
         return f"{self.title} ({self.rating})"
