@@ -760,6 +760,20 @@ python manage.py runserver
 
 # Setup Dynamic routes with get_absolute_url()
 
+### [https://github.com/omeatai/django-project-blog/commit/0b16eb0a2a463a8b92fba3fee232b56bc0222b87](https://github.com/omeatai/django-project-blog/commit/0b16eb0a2a463a8b92fba3fee232b56bc0222b87)
+
+<img width="1086" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/c290458b-3a38-4596-8d9a-97957dcf7f2e">
+<img width="1086" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/183e7c38-e802-4e51-b0d2-b1cbf54d02c8">
+<img width="1324" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/0b87865d-af9c-4ca6-afb8-84c6361343d9">
+<img width="1324" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/4a20b447-158b-4d9c-98a8-e492894c96c1">
+
+# #End</details>
+
+<details>
+<summary>33. Book Store Demo Project: Setup  </summary>
+
+# Setup 
+
 ```x
 
 ```
