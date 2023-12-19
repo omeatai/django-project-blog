@@ -842,6 +842,20 @@ humpty-dumpty
 
 # Slugify URL
 
+### [https://github.com/omeatai/django-project-blog/commit/6dbe41347a7c2a903654de9625f878fe6ac1d5c9](https://github.com/omeatai/django-project-blog/commit/6dbe41347a7c2a903654de9625f878fe6ac1d5c9)
+
+<img width="1134" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/48584ebc-197f-4d81-8764-a7f5c83d63a9">
+<img width="1134" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/fa41030f-a6ca-4873-bd19-903e5aa0b118">
+<img width="1134" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/bd522a93-cbf3-4a9c-9ccf-cfc6a0642acf">
+<img width="1324" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/7b0c0158-22a7-4bf7-8205-5f6aa30ab4f7">
+
+# #End</details>
+
+<details>
+<summary>35. Book Store Demo Project:  </summary>
+
+# Slugify URL
+
 ```x
 
 ```
