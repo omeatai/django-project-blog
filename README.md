@@ -726,6 +726,40 @@ python manage.py runserver
 
 # Rendering Queried Data in Template
 
+### [https://github.com/omeatai/django-project-blog/commit/bfb0edf46c325579fb03037ace7a8188e6a3ad74](https://github.com/omeatai/django-project-blog/commit/bfb0edf46c325579fb03037ace7a8188e6a3ad74)
+
+<img width="1087" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/4baad1da-79db-433e-b3f9-b31ad072e7ce">
+<img width="1087" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/b5e12e2b-2bc3-485e-ba27-9fbb42f2b415">
+<img width="1087" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/2fa94ea8-83f8-4a25-9d3e-db7a3d5a17e0">
+<img width="1087" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/e9cdb5f3-0179-4ec4-8028-50587caef0c5">
+<img width="1328" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/e7d3da9b-a1da-4d38-a50e-498b2e5abb7f">
+
+# #End</details>
+
+<details>
+<summary>31. Book Store Demo Project: Rendering Blog Details Page </summary>
+
+# Rendering Blog Details Page
+
+### [https://github.com/omeatai/django-project-blog/commit/524ddcd736dd0d0f98f8a335d7dfac9f21573fe2](https://github.com/omeatai/django-project-blog/commit/524ddcd736dd0d0f98f8a335d7dfac9f21573fe2)
+
+<img width="1087" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/75bdc7b2-d3b7-4ac6-9e4f-1007188322b6">
+<img width="1087" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/06eb2865-6761-483a-b0a2-3a7ac8cc3c79">
+<img width="1087" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/a940c546-8029-4b7e-a43b-54da6b547066">
+<img width="1087" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/5c30f61c-f3e2-4045-9770-ded658b87c78">
+<img width="1087" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/381de0fc-b724-4b1b-8b34-8e1a421b0cbe">
+<img width="1087" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/59f5733e-38c7-4a3a-9c38-e932fd7deba2">
+<img width="1325" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/d802b185-10bd-42df-ab0b-e13b7c5c887d">
+<img width="1325" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/bc4881bc-5f75-4d2c-8722-322dac2b52fe">
+<img width="1325" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/18bdb609-611a-41f8-a9ef-08d64081902f">
+
+# #End</details>
+
+<details>
+<summary>32. Book Store Demo Project: Setup Dynamic routes with get_absolute_url() </summary>
+
+# Setup Dynamic routes with get_absolute_url()
+
 ```x
 
 ```
