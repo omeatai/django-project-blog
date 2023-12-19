@@ -774,6 +774,8 @@ python manage.py runserver
 
 # Create Slug and Overwrite Save Method
 
+### [https://github.com/omeatai/django-project-blog/commit/bd9a2f3dd4fd3cec9cf8ce0b520414ef9e8f0e6b](https://github.com/omeatai/django-project-blog/commit/bd9a2f3dd4fd3cec9cf8ce0b520414ef9e8f0e6b)
+
 # Run Migrations
 
 ```x
