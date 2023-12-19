@@ -7,13 +7,8 @@ All Books
 {% block content %}
 <h1>Books</h1>
 <ul>
-    <li>Book 1</li>
-    <li>Book 2</li>
-    <li>Book 3</li>
-</ul>
-{% comment %} <ul>
     {% for book in books %}
-    <li>{{ book.title }}</li>
+    <li>{{ book.title }} (Rating: {{ book.rating }})</li>
     {% endfor %}
-</ul> {% endcomment %}
+</ul>
 {% endblock content %}
