@@ -1112,8 +1112,41 @@ python manage.py shell
 
 # Setup many-to-many Key Relationships
 
-```x
+# Run Migrations
 
+```x
+python manage.py makemigrations
+python manage.py migrate
+```
+
+# Run Shell
+
+```x
+python manage.py shell
+```
+
+```x
+>>> from books.models import Country, Book
+>>> Book.objects.all()
+<QuerySet [<Book: Harry Potter 1 (5)>, <Book: Tales of Mine (4)>]>
+>>> hp1 = Book.objects.get(title = "Harry Potter 1")
+>>> hp1.published_countries
+<django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x105388e00>
+>>> hp1.published_countries.all()
+<QuerySet []>
+>>> 
+>>> germany = Country(name="Germany", code="DE")
+>>> usa = Country(name="United States of America", code="US")
+>>> germany.save()
+>>> usa.save()
+>>> hp1.published_countries.add(germany)
+>>> hp1.save()
+>>> hp1.published_countries.all()
+<QuerySet [<Country: Germany (DE)>]>
+>>> hp1.published_countries.filter(code="DE")
+<QuerySet [<Country: Germany (DE)>]>
+>>> hp1.published_countries.filter(code="US")
+<QuerySet []>
 ```
 
 ```x
