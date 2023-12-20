@@ -12,14 +12,23 @@ def validate_not_a_number(value):
             params={"value": value},
         )
 
-# Create your models here.
+class Author(models.Model):
+    first_name = models.CharField(max_length=100)
+    last_name = models.CharField(max_length=100)
+    age = models.IntegerField()
 
+    def full_name(self):
+        return f"{self.first_name} {self.last_name} ({self.age})"
+
+    def __str__(self):
+        return self.full_name()
 
 class Book(models.Model):
     title = models.CharField(max_length=100)
     rating = models.IntegerField(
         validators=[validate_not_a_number, MinValueValidator(1), MaxValueValidator(5)])
-    author = models.CharField(blank=True, null=True, max_length=100)
+    author = models.ForeignKey(Author, on_delete=models.CASCADE, null=True, blank=True, related_name="author_books")
+    # models.CASCADE, models.PROTECT, models.SET_NULL, models.SET_DEFAULT, models.DO_NOTHING
     is_bestselling = models.BooleanField(default=False)
     slug = models.SlugField(default="", null=False, blank=True, editable=True, db_index=True, primary_key=False)
 
