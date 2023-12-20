@@ -967,6 +967,8 @@ python manage.py runserver
 
 # Setup one-to-many Key Relationships
 
+### [https://github.com/omeatai/django-project-blog/commit/0ff0548960f426c67c8e7bcb9a587947ca093ecb](https://github.com/omeatai/django-project-blog/commit/0ff0548960f426c67c8e7bcb9a587947ca093ecb)
+
 # Delete all Objects
 
 ```x
@@ -986,7 +988,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-# Create an Author and relate a book to him
+# Create an Author and relate a book to the Author
 
 ```x
 python manage.py shell
@@ -1018,9 +1020,41 @@ python manage.py shell
 'J.K.'
 >>> harrypotter.author.last_name
 'Rowling'
->>> 
 
+>>> books_by_rowling = Book.objects.filter(author__last_name="Rowling")
+>>> books_by_rowling
+<QuerySet [<Book: Harry Potter 1 (5)>]>
+>>> Book.objects.filter(author__last_name__icontains="ling")
+<QuerySet [<Book: Harry Potter 1 (5)>]>
+
+>>> jkr = Author.objects.get(first_name="J.K.")
+>>> jkr
+<Author: J.K. Rowling (42)>
+>>> jkr.book_set
+<django.db.models.fields.related_descriptors.create_reverse_many_to_one_manager.<locals>.RelatedManager object at 0x104311b80>
+>>> jkr.book_set.all()
+<QuerySet [<Book: Harry Potter 1 (5)>]>
+>>> jkr.author_books
+<django.db.models.fields.related_descriptors.create_reverse_many_to_one_manager.<locals>.RelatedManager object at 0x1038e3650>
+>>> jkr.author_books.all()
+<QuerySet [<Book: Harry Potter 1 (5)>]>
+>>> jkr.author_books.filter(rating__gt=3)
+<QuerySet [<Book: Harry Potter 1 (5)>]>
 ```
+
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/78b9dabc-2abe-4d1c-a707-1e79c66ddc4a">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/b1392a80-1127-438c-b60e-2fb8ed4c695b">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/f105bef6-7469-4e50-9087-dda11ab6e791">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/f9ddbcf6-3f95-4dc4-b748-43c51f1332e7">
+<img width="1325" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/428e8112-1841-4cdc-9cee-5447e66682ba">
+<img width="1325" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/dbfa8148-da7d-441c-a64b-8640b72df694">
+
+# #End</details>
+
+<details>
+<summary>38. Book Store Demo Project: Setup one-to-one Key Relationships </summary>
+
+# Setup one-to-one Key Relationships
 
 ```x
 
