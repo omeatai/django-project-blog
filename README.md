@@ -1056,9 +1056,61 @@ python manage.py shell
 
 # Setup one-to-one Key Relationships
 
-```x
+### [https://github.com/omeatai/django-project-blog/commit/aab65427fd9ecaa65ca87c4ed06e0f39991cac3f](https://github.com/omeatai/django-project-blog/commit/aab65427fd9ecaa65ca87c4ed06e0f39991cac3f)
 
+# Run Migrations
+
+```x
+python manage.py makemigrations
+python manage.py migrate
 ```
+
+# Run Shell
+
+```x
+python manage.py shell
+```
+
+```x
+>>> from books.models import Author, Address, Book
+>>> Author.objects.all()
+<QuerySet [<Author: J.K. Rowling (42)>, <Author: Hanza Hamed (24)>]>
+>>> Author.objects.all()[0].address
+>>> addr1 = Address(street="1 Street", postal_code="12345", city="London")
+>>> addr2 = Address(street="2 Street", postal_code="67890", city="New York")
+>>> addr1.save()
+>>> addr2.save()
+>>> jkr = Author.objects.get(first_name="J.K.")
+>>> jkr.address = addr1
+>>> jkr.save()
+>>> hanza = Author.objects.get(first_name="Hanza")
+>>> hanza.address = addr2
+>>> hanza.save()
+>>> jkr.address.street
+'1 Street'
+>>> str1 = Address.objects.get(street = "1 Street")
+>>> str1.author
+<Author: J.K. Rowling (42)>
+>>> str1.author.first_name
+'J.K.'
+>>> 
+```
+
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/9f8ffa9b-4d6c-4029-90f6-5560e79517f9">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/d5689150-65c2-4d79-ab48-6d920152f719">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/ba84e354-e490-4a55-abb4-0e99cf1a6710">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/be794f0e-e75a-46df-8cda-7226dd0edec9">
+<img width="1325" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/37839fb0-5350-4b44-b43e-9f118f3066fd">
+<img width="1325" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/24f66532-d3d2-4260-a06f-e3cc83ba128c">
+<img width="1325" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/c152b278-4d6b-4fd2-93f9-6feba66aa245">
+<img width="1325" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/a4478415-46a3-47cb-a2c0-eeb6da52e700">
+
+# #End</details>
+
+<details>
+<summary>39. Book Store Demo Project: Setup many-to-many Key Relationships </summary>
+
+# Setup many-to-many Key Relationships
 
 ```x
 
