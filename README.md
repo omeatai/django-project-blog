@@ -963,23 +963,62 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>37. Book Store Demo Project: Setup Key Relationships </summary>
+<summary>37. Book Store Demo Project: Setup one-to-many Key Relationships </summary>
 
-# Setup Key Relationships
+# Setup one-to-many Key Relationships
+
+# Delete all Objects
 
 ```x
-
+python manage.py shell
 ```
 
 ```x
+>>> from books.models import Book
+>>> Book.objects.all().delete()
+(7, {'books.Book': 7})
+```
 
+# Run Migrations
+
+```x
+python manage.py makemigrations
+python manage.py migrate
+```
+
+# Create an Author and relate a book to him
+
+```x
+python manage.py shell
 ```
 
 ```x
+>>> from books.models import Book, Author
+>>> jkrowling = Author(first_name="J.K.", last_name="Rowling", age=42)
+>>> jkrowling.save()
+>>> Author.objects.all()
+<QuerySet [<Author: J.K. Rowling (42)>]>
+>>> Author.objects.all()[0].first_name
+'J.K.'
 
-```
+>>> jkrowling = Author.objects.get(last_name = "Rowling")
+>>> jkrowling
+<Author: J.K. Rowling (42)>
+>>> hp1 = Book(title="Harry Potter 1", rating=5, author=jkrowling, is_bestselling=True)
+>>> hp1.save()
+>>> Book.objects.all()
+<QuerySet [<Book: Harry Potter 1 (5)>]>
 
-```x
+>>> harrypotter = Book.objects.get(title="Harry Potter 1")
+>>> harrypotter
+<Book: Harry Potter 1 (5)>
+>>> harrypotter.author
+<Author: J.K. Rowling (42)>
+>>> harrypotter.author.first_name
+'J.K.'
+>>> harrypotter.author.last_name
+'Rowling'
+>>> 
 
 ```
 
