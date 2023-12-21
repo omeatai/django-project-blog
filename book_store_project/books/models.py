@@ -12,6 +12,17 @@ def validate_not_a_number(value):
             params={"value": value},
         )
 
+class Country(models.Model):
+    name = models.CharField(max_length=80)
+    code = models.CharField(max_length=2)
+
+    def __str__(self):
+        return f"{self.name} ({self.code})"
+
+    class Meta:
+        verbose_name = "Country"
+        verbose_name_plural = "Country Entries"
+
 class Address(models.Model):
     street = models.CharField(max_length=100)
     postal_code = models.CharField(max_length=5)
@@ -45,6 +56,7 @@ class Book(models.Model):
         validators=[validate_not_a_number, MinValueValidator(1), MaxValueValidator(5)])
     author = models.ForeignKey(Author, on_delete=models.CASCADE, null=True, blank=True, related_name="author_books")
     # models.CASCADE, models.PROTECT, models.SET_NULL, models.SET_DEFAULT, models.DO_NOTHING
+    published_countries = models.ManyToManyField(Country, related_name="country_books")
     is_bestselling = models.BooleanField(default=False)
     slug = models.SlugField(default="", null=False, blank=True, editable=True, db_index=True, primary_key=False)
 
