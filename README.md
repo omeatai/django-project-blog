@@ -1112,6 +1112,8 @@ python manage.py shell
 
 # Setup many-to-many Key Relationships
 
+### [https://github.com/omeatai/django-project-blog/commit/f7e4877d2b38f3c7f7793688c54f0fad09136ccd](https://github.com/omeatai/django-project-blog/commit/f7e4877d2b38f3c7f7793688c54f0fad09136ccd)
+
 # Run Migrations
 
 ```x
@@ -1134,7 +1136,7 @@ python manage.py shell
 <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x105388e00>
 >>> hp1.published_countries.all()
 <QuerySet []>
->>> 
+
 >>> germany = Country(name="Germany", code="DE")
 >>> usa = Country(name="United States of America", code="US")
 >>> germany.save()
@@ -1147,7 +1149,76 @@ python manage.py shell
 <QuerySet [<Country: Germany (DE)>]>
 >>> hp1.published_countries.filter(code="US")
 <QuerySet []>
+
+>>> ger = Country.objects.get(name="Germany")
+>>> ger.book_set.all()
+<QuerySet [<Book: Harry Potter 1 (5)>]>
+
+>>> ger = Country.objects.get(name="Germany")
+>>> ger.country_books
+<django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x107616030>
+>>> ger.country_books.all()
+<QuerySet [<Book: Harry Potter 1 (5)>]>
+>>> 
 ```
+
+<img width="1142" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/1cf61da2-b206-4552-9b17-3240531710bf">
+<img width="1142" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/28cd8964-ccbc-4b9a-83af-7d451f5c108d">
+<img width="1142" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/74c1ace1-5fec-4451-961b-71b5455991a3">
+<img width="1142" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/0744004c-089f-4c11-871c-0516929597e5">
+<img width="1142" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/78fac5bb-3645-457c-8d59-bd2d42a1d0e8">
+<img width="1142" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/2b0cf620-f7c5-4f2c-bb82-4a0708c3068a">
+<img width="1142" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/766af627-341a-49ea-a073-825e4bce9afb">
+<img width="1142" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/86db9673-e44b-47cc-9886-50962269a756">
+<img width="1142" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/27d44a42-eecd-42a7-a252-64b32787c4db">
+<img width="1327" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/275b9290-67df-4ca8-89a6-b1eaabcdccf1">
+<img width="1327" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/8da4f8fd-b98c-4ff3-85fd-08cc8add9441">
+<img width="1327" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/ea0cbcb7-1a43-4f79-8f33-1abb0aa00143">
+<img width="1327" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/d81517a7-5f3b-45ae-bd33-35a37ff6e6a1">
+<img width="1327" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/7d489e0a-3b11-4dc6-86da-37b19ae28186">
+
+# Important Points:
+
+# Two models that have a circular relationship
+
+```x
+class Product(models.Model):
+  # ... other fields ...
+  last_buyer = models.ForeignKey('User')
+  
+class User(models.Model):
+  # ... other fields ...
+  created_products = models.ManyToManyField('Product')
+```
+
+In this example, we have multiple relationships between the same two models. Hence we might need to define them in both models. By using the model name as a string instead of a direct reference, Django is able to resolve such dependencies.
+
+# Relation with the same model
+
+```x
+class User(models.Model):
+  # ... other fields ...
+  friends = models.ManyToManyField('self') 
+```
+
+The special self keyword (used as a string value) tells Django that it should form a relationship with (other) instances of the same model.
+
+# Relationships with other apps and their models
+
+```x
+class Review(models.Model):
+  # ... other fields ...
+  product = models.ForeignKey('store.Product') # '<appname>.<modelname>'
+```
+
+You can reference models defined in other Django apps (no matter if created by you, via python manage.py startapp <appname> or if it's a built-in or third-party app) by using the app name and then the name of the model inside the app.
+
+# #End</details>
+
+<details>
+<summary>40. Blog Main Project: Setup Models and Relationships </summary>
+
+# Setup Models and Relationships
 
 ```x
 
