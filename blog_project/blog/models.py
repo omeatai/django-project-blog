@@ -37,3 +37,4 @@ class Post(models.Model):
         return f"{self.title} - {self.author.first_name} {self.author.last_name}"
 
 
+##
