@@ -1220,12 +1220,23 @@ You can reference models defined in other Django apps (no matter if created by y
 
 # Setup Models and Relationships
 
-```x
+# Run Migrations
 
+```x
+python manage.py makemigrations
+python manage.py migrate
 ```
 
-```x
+# Create SuperUser
 
+```x
+python manage.py createsuperuser
+```
+
+# Run Development Server
+
+```x
+python manage.py runserver
 ```
 
 ```x
