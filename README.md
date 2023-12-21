@@ -12,6 +12,8 @@ This is a modern django Blog Application built with Django by Ifeanyi Omeata.
 
 ## Project Steps (Tutorial)
 
++Challenges Demo Project
+
 <details>
 <summary>1. Mypage Demo Project: Create Django Project </summary>
 
@@ -219,6 +221,8 @@ python manage.py runserver
 
 # #End</details>
 
++Blog Main Project (PART1)
+
 <details>
 <summary>11. Blog Main Project: Create Django Project </summary>
 
@@ -361,6 +365,8 @@ python manage.py runserver
 <img width="1323" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/75781ac1-03f8-4bf4-a821-781174237312">
 
 # #End</details>
+
++Book Store Demo Project
 
 <details>
 <summary>18. Book Store Demo Project: Create Django Project </summary>
@@ -1214,6 +1220,8 @@ class Review(models.Model):
 You can reference models defined in other Django apps (no matter if created by you, via python manage.py startapp <appname> or if it's a built-in or third-party app) by using the app name and then the name of the model inside the app.
 
 # #End</details>
+
++Blog Main Project (PART2)
 
 <details>
 <summary>40. Blog Main Project: Setup Models and Relationships </summary>
