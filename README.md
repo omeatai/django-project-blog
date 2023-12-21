@@ -1220,6 +1220,8 @@ You can reference models defined in other Django apps (no matter if created by y
 
 # Setup Models and Relationships
 
+### [https://github.com/omeatai/django-project-blog/commit/88905634869c0a2766b7b8ab3e49cb91fb7dda28](https://github.com/omeatai/django-project-blog/commit/88905634869c0a2766b7b8ab3e49cb91fb7dda28)
+
 # Run Migrations
 
 ```x
@@ -1238,6 +1240,24 @@ python manage.py createsuperuser
 ```x
 python manage.py runserver
 ```
+
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/20b13d0b-ed26-46c1-b95e-c6b49df42efc">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/7bb22333-b22c-4d14-8e0b-a96926dc1f0c">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/59fcf9bb-b66b-4059-a5d4-1f03256dc137">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/ef4d8f06-4bad-4de1-977d-37fd9ac0b5dd">
+<img width="1273" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/aaa2a189-41de-4b94-ac4f-a2e38b5427a6">
+<img width="1273" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/1518bf02-508b-4de8-9551-89b48d33a3ba">
+<img width="1273" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/00388ae3-540d-4423-8094-edefe0aadbc5">
+<img width="1273" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/afe9efd4-700b-4f50-a2d5-ad562cd612d6">
+<img width="1273" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/19d809c0-1d7f-41e7-b538-01738c1a434b">
+<img width="1273" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/65db9e2f-2138-442c-a737-44bbbf4daf78">
+
+# #End</details>
+
+<details>
+<summary>41. Blog Main Project: Setup Posts with Model Data </summary>
+
+# Setup Posts with Model Data 
 
 ```x
 
