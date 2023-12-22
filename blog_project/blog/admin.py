@@ -11,5 +11,3 @@ class PostAdmin (admin.ModelAdmin):
 admin.site.register (Post, PostAdmin)
 admin.site.register (Author)
 admin.site.register (Tag)
-
-##
