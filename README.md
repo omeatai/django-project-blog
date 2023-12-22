@@ -1267,6 +1267,36 @@ python manage.py runserver
 
 # Setup Posts with Model Data 
 
+### [https://github.com/omeatai/django-project-blog/commit/eabd8c2878759b75d0c3e492b1b3fae726ad20a7](https://github.com/omeatai/django-project-blog/commit/eabd8c2878759b75d0c3e492b1b3fae726ad20a7)
+
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/8f01d080-9ed6-47cc-8418-6fe6f008683d">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/7630d63f-aa36-48fa-93e7-fcbee4616d50">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/34aad958-e4dc-4426-9201-bd9c82308c32">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/fd0ea43e-fd2d-43a5-ae12-a5cac20d55be">
+<img width="1323" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/f2cf0526-e816-4e36-b8dc-38b9df52acb4">
+
+# #End</details>
+
+<details>
+<summary>42. Blog Main Project: Setup All Posts and Single Post Pages </summary>
+
+# Setup All Posts and Single Post Pages
+
+### [https://github.com/omeatai/django-project-blog/commit/d90aa51aeac25aeb75e36ea5c60794a112b8f322](https://github.com/omeatai/django-project-blog/commit/d90aa51aeac25aeb75e36ea5c60794a112b8f322)
+
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/9286cc33-5502-42e7-a8c9-7317fbb55bb2">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/5b81012a-8039-4dc2-8320-9b18e1c0b90a">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/cf3ac629-83c3-4952-88fa-e8c21b11f3b2">
+<img width="1326" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/e67c269d-7530-4bdf-925b-fe8778a5d6e3">
+<img width="1326" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/2b6a9bd5-c689-461e-9204-cae045d29d79">
+
+# #End</details>
+
+<details>
+<summary>43. Blog Main Project: Use Author and Tag Data </summary>
+
+# Use Author and Tag Data
+
 ```x
 
 ```
