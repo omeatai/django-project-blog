@@ -1297,6 +1297,22 @@ python manage.py runserver
 
 # Use Author and Tag Data
 
+### [https://github.com/omeatai/django-project-blog/commit/a2e89b2755dcb692a33462f1b08e5863cca761be](https://github.com/omeatai/django-project-blog/commit/a2e89b2755dcb692a33462f1b08e5863cca761be)
+
+<img width="1142" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/757429b3-8b05-494a-ae24-ac4806d7ddc8">
+<img width="1142" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/9c5e4cba-a8f6-46e7-8a7f-40f0121a587b">
+<img width="1142" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/1e1bf1cd-97c8-429d-b6e7-07add1a0f9ac">
+<img width="1142" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/353285af-3375-4746-b287-7e67102c3151">
+<img width="1324" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/28078790-7c12-4867-871f-3593ea3ab976">
+<img width="1324" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/3a400830-ad62-461e-a55b-4327755efe59">
+
+# #End</details>
+
+<details>
+<summary>44. Blog Main Project: Setup Forms </summary>
+
+# Setup Forms
+
 ```x
 
 ```
