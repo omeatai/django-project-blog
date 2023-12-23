@@ -8,7 +8,15 @@
 </head>
 
 <body>
-    <h1>This is your Review Page.</h1>
+    <form action="/" method="POST">
+        {% csrf_token %}
+        {% if has_error %}
+        <p>This form is invalid – please enter a valid username!</p>
+        {% endif %}
+        <label for="username">Your name</label>
+        <input id="username" name="username" type="text" placeholder="Enter your name...">
+        <button type="submit">Send</button>
+    </form>
 </body>
 
 </html>
