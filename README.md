@@ -1309,13 +1309,40 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>44. Blog Main Project: Setup Forms </summary>
+<summary>44. Feedback Demo Project: Create Project </summary>
 
-# Setup Forms
+# Create Project
+
+### [https://github.com/omeatai/django-project-blog/commit/0e1a2e6de78943073907a55c7dbbb4d7adbf5406](https://github.com/omeatai/django-project-blog/commit/0e1a2e6de78943073907a55c7dbbb4d7adbf5406)
+
+# Create Django Project Feedback
 
 ```x
-
+django-admin startproject feedback
 ```
+
+# Create App Reviews
+
+```x
+cd feedback
+python manage.py startapp reviews
+```
+
+# Run Development Server to view Project
+
+```x
+python manage.py runserver
+```
+
+<img width="1141" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/069201ee-0d1e-462c-8767-396b1e9ca583">
+<img width="1295" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/b8426b53-6afc-49ab-8c4c-a3437b2597d2">
+
+# #End</details>
+
+<details>
+<summary>45. Feedback Demo Project: Setup URL and View </summary>
+
+# Setup URL and View
 
 ```x
 
