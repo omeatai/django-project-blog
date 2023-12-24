@@ -1377,6 +1377,26 @@ python manage.py runserver
 
 # Using Django Form Class
 
+### [https://github.com/omeatai/django-project-blog/commit/d4fa9fddc6e37be0cfba6b9146f22a03069b3b49](https://github.com/omeatai/django-project-blog/commit/d4fa9fddc6e37be0cfba6b9146f22a03069b3b49)
+
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/181c1823-69eb-40b2-8cb5-237bdc8298e4">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/16c6003b-538a-41d7-ac62-46f6689231bc">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/a55d4153-7072-42d3-8fa9-db51b926f3b5">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/7784c0f5-df87-4b5d-8789-01ce329be4e2">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/a5976777-099f-46a7-8c98-f206e125a391">
+<img width="1319" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/7a30ac4a-1287-4d0f-a5f0-cd58ba7ef9b2">
+<img width="1319" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/6a0dc195-c69f-45ef-9b50-4d6902b0334d">
+<img width="1320" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/d1588605-17a8-460c-8cef-ba7401d0060f">
+<img width="1320" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/cdf25d73-e011-426c-b6f1-010748f80419">
+<img width="990" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/83e33c23-1cb0-430a-8ccb-ba3fdd7a74a7">
+
+# #End</details>
+
+<details>
+<summary>48. Feedback Demo Project: Storing Form Data in Database </summary>
+
+# Storing Form Data in Database
+
 ```x
 
 ```
