@@ -1361,6 +1361,22 @@ python manage.py runserver
 
 # Setup Form
 
+### [https://github.com/omeatai/django-project-blog/commit/143f7000242af0f28ab6b8ad9b23ab84836914d8](https://github.com/omeatai/django-project-blog/commit/143f7000242af0f28ab6b8ad9b23ab84836914d8)
+
+<img width="1141" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/3b316565-5951-4e7c-b158-d5289ef990ba">
+<img width="1141" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/4ad066fe-ce61-4eae-af43-ab96658b674b">
+<img width="1141" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/6a473618-6511-4ca2-bd26-6323dfeda8c7">
+<img width="1141" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/8ad7315c-b130-4aac-b532-81354dbec8cc">
+<img width="1318" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/c2081bac-ecb8-40cc-8cc8-060a675d4b8a">
+<img width="1318" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/1e341da0-4486-4062-9a4a-01166007e2c6">
+
+# #End</details>
+
+<details>
+<summary>47. Feedback Demo Project: Using Django Form Class </summary>
+
+# Using Django Form Class
+
 ```x
 
 ```
