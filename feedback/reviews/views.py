@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponseRedirect
 from .forms import ReviewForm
+from .models import Review
 
 # Create your views here.
 
@@ -11,8 +12,12 @@ def review(request):
         # entered_username = request.POST['username']
 
         if form.is_valid():
-            # new_review = form.save()
-            print(form.cleaned_data)
+            review = Review(
+                username=form.cleaned_data['username'],
+                review_text=form.cleaned_data['review_text'],
+                rating=form.cleaned_data['rating'])
+            new_review = review.save()
+            print(new_review)
             return HttpResponseRedirect("/thank-you")
 
     else:
