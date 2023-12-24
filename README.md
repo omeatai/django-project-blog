@@ -1397,17 +1397,46 @@ python manage.py runserver
 
 # Storing Form Data in Database
 
-```x
+### [https://github.com/omeatai/django-project-blog/commit/8e43d6a0f9dd1f2701157104a9adf51f4f49f6b2](https://github.com/omeatai/django-project-blog/commit/8e43d6a0f9dd1f2701157104a9adf51f4f49f6b2)
 
-```
-
-```x
-
-```
+# Run Migrations
 
 ```x
-
+python manage.py makemigrations
+python manage.py migrate
 ```
+
+# Create Super User
+
+```x
+python manage.py createsuperuser
+```
+
+# Run Dev Server
+
+```x
+python manage.py runserver
+```
+
+<img width="1141" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/05dd5d08-2743-475c-a30d-d67909842bce">
+<img width="1137" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/e417caf1-21f4-4fd7-9a3d-b9f3a5fa3f15">
+<img width="1137" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/629638e9-64a9-4fa7-a73e-03460966d8e9">
+<img width="1142" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/0dd0c913-81fd-4dba-b09d-ff98b385c8e6">
+<img width="1141" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/6210991c-e12e-4e29-87ab-2386d9ed0958">
+<img width="1319" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/f9ca1722-87e5-49bd-9375-ab5d9ca26824">
+<img width="1319" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/5737f39d-a9a7-4a64-ba71-e7bca51f7f40">
+<img width="1316" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/1841df95-c78b-4fe9-9613-8dfe986d1ca4">
+<img width="1316" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/0b3403e4-4e62-4119-8976-734a26782cd6">
+<img width="1319" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/06a55e3c-a360-4d52-bf50-9617541680ed">
+<img width="1319" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/c2da4fc6-a40d-4019-bc38-1f858cf6114a">
+<img width="1319" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/695ab2ac-2b64-4593-b80f-b45de4a07df7">
+
+# #End</details>
+
+<details>
+<summary>49. Feedback Demo Project: Setup ModelForms </summary>
+
+# Setup ModelForms
 
 ```x
 
