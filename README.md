@@ -1448,9 +1448,9 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>50. Feedback Demo Project: Class Based Views </summary>
+<summary>50. Feedback Demo Project: Setup Class Based Views </summary>
 
-# Class Based Views
+# Setup Class Based Views
 
 ### [https://github.com/omeatai/django-project-blog/commit/8742a736a01c27130d798e633da50e32948fb998](https://github.com/omeatai/django-project-blog/commit/8742a736a01c27130d798e633da50e32948fb998)
 
@@ -1461,9 +1461,63 @@ python manage.py runserver
 # #End</details>
 
 <details>
-<summary>51. Feedback Demo Project: Template View </summary>
+<summary>51. Feedback Demo Project: Setup Template View </summary>
 
-# Template View
+# Setup Template View
+
+### [https://github.com/omeatai/django-project-blog/commit/736d838d864b6cf1773875f035f8bfac6d22e12b](https://github.com/omeatai/django-project-blog/commit/736d838d864b6cf1773875f035f8bfac6d22e12b)
+
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/c6d09f1c-2689-4afe-984a-619c0b9fd883">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/8e1c988e-bb60-4089-b50b-04ee5e6a7128">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/a600570d-93ef-4207-a216-29836d335613">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/2458469c-33bf-46f5-b6f0-9d27b2d82607">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/1789f1fe-2506-4aa0-9f6f-d912e420a729">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/ecc1da65-3c7e-49b9-8fe4-67dd4c6c50e1">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/6a810054-ee16-4ab9-a90e-d263c34209c1">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/bbdd5958-b9ff-44d1-be7e-25fa40b27baf">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/25ea92f7-c00b-404c-b194-52f4a78caa65">
+<img width="1240" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/f0e12e51-9d74-42f7-b6b3-4e7f947d9170">
+<img width="1240" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/b4bdfc3e-8957-4aba-994a-b64f2138a62a">
+<img width="1240" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/1ea57d25-2345-4f26-829d-871045a415b0">
+
+# #End</details>
+
+<details>
+<summary>52. Feedback Demo Project: Setup List View </summary>
+
+# Setup List View
+
+```x
+
+```
+
+```x
+
+```
+
+```x
+
+```
+
+```x
+
+```
+
+```x
+
+```
+
+```x
+
+```
+
+```x
+
+```
+
+```x
+
+```
 
 ```x
 
