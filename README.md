@@ -1487,6 +1487,18 @@ python manage.py runserver
 
 # Setup List View
 
+### [https://github.com/omeatai/django-project-blog/commit/956cad3b3e5eaa8c2cd9ad0e5da9fb13f158355d](https://github.com/omeatai/django-project-blog/commit/956cad3b3e5eaa8c2cd9ad0e5da9fb13f158355d)
+
+<img width="1141" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/3d33053b-9169-4699-8b43-989725a1e295">
+<img width="1243" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/5696706f-5e18-4c48-9bf5-742adb2ed428">
+
+# #End</details>
+
+<details>
+<summary>53. Feedback Demo Project: Setup Detail View </summary>
+
+# Setup Detail View
+
 ```x
 
 ```
