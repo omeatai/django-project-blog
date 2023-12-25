@@ -1513,6 +1513,20 @@ python manage.py runserver
 
 # Setup Form View
 
+### [https://github.com/omeatai/django-project-blog/commit/6e2ab6f2c52147d4988f4bae4975fd5f553a51f3](https://github.com/omeatai/django-project-blog/commit/6e2ab6f2c52147d4988f4bae4975fd5f553a51f3)
+
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/eb99f8c6-6489-4c86-8fca-2a938540a90e">
+<img width="1242" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/7524c227-6551-4ffe-b61d-86ad9399e0bf">
+<img width="1242" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/8df92367-2d15-4113-870f-34699e198033">
+<img width="1242" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/f291b7cf-2450-4466-846f-88b6bb626d62">
+
+# #End</details>
+
+<details>
+<summary>55. Feedback Demo Project: Setup Create View </summary>
+
+# Setup Create View
+
 ```x
 
 ```
