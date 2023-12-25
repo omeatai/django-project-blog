@@ -1452,6 +1452,19 @@ python manage.py runserver
 
 # Class Based Views
 
+### [https://github.com/omeatai/django-project-blog/commit/8742a736a01c27130d798e633da50e32948fb998](https://github.com/omeatai/django-project-blog/commit/8742a736a01c27130d798e633da50e32948fb998)
+
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/63a77e01-cf7c-4de6-8c2a-96b8e61ba010">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/abefd40e-01b7-40dc-8457-d6c3e95bd338">
+<img width="1140" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/3db5a2f1-117f-497a-92ae-91462f662db1">
+
+# #End</details>
+
+<details>
+<summary>51. Feedback Demo Project: Template View </summary>
+
+# Template View
+
 ```x
 
 ```
