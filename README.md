@@ -1438,6 +1438,20 @@ python manage.py runserver
 
 # Setup ModelForms
 
+### [https://github.com/omeatai/django-project-blog/commit/1e384aac7c447841a8ef09aa513b4f052de96493](https://github.com/omeatai/django-project-blog/commit/1e384aac7c447841a8ef09aa513b4f052de96493)
+
+<img width="1142" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/e5f5add5-e158-4248-952e-1bbe18426811">
+<img width="1142" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/ebc2f3fc-27fe-4c6b-9155-455af0986f56">
+<img width="1142" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/30284145-56bd-4a98-9a9e-cd42e1fd96ec">
+<img width="1242" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/31ff5b8b-c6d9-40bd-8902-e907c7322a56">
+
+# #End</details>
+
+<details>
+<summary>50. Feedback Demo Project: Class Based Views </summary>
+
+# Class Based Views
+
 ```x
 
 ```
