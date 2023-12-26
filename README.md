@@ -1527,6 +1527,20 @@ python manage.py runserver
 
 # Setup Create View
 
+### [https://github.com/omeatai/django-project-blog/commit/25ed2da3ab37ccc443d5bdc7cd8385380cdc50e0](https://github.com/omeatai/django-project-blog/commit/25ed2da3ab37ccc443d5bdc7cd8385380cdc50e0)
+
+<img width="1141" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/845141a0-ca54-4525-8855-f8b3290ea260">
+<img width="1141" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/e2629678-da00-4511-9204-79ddffada21d">
+<img width="1141" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/9fa7f535-aa91-44ff-bd92-26d29a54919a">
+<img width="1243" alt="image" src="https://github.com/omeatai/django-project-blog/assets/32337103/ddef865a-c036-4a06-a5a2-bc822aa8b083">
+
+# #End</details>
+
+<details>
+<summary>56. Feedback Demo Project: Setup File Upload </summary>
+
+# Setup File Upload
+
 ```x
 
 ```
